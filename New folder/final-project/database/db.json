@@ -1,0 +1,16 @@
+{
+  "teachers": [
+    {
+      "id": 2,
+      "firstName": "Mohamed",
+      "lastName": "Boraay",
+      "course": "c#"
+    },
+    {
+      "firstName": "Abdelrahman",
+      "lastName": "Ashraf",
+      "course": "C++",
+      "id": 3
+    }
+  ]
+}

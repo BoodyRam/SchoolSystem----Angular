@@ -1,0 +1,6 @@
+.navbar{
+    background: linear-gradient(to left, rgb(16,16,16) 70%, purple);
+}
+.collapse .navbar-nav li{
+margin-left: 20px;
+}

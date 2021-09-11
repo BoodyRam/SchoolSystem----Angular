@@ -1,0 +1,15 @@
+<div class="container text-center">
+  <div class="mb-3">
+    <label class="form-label">First Name</label>
+    <input name="firstName" [(ngModel)]="model.firstName" type="text" class="form-control" placeholder="Your First Name">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Last Name</label>
+    <input name="lastName" [(ngModel)]="model.lastName" type="text" class="form-control" placeholder="Your Last Name">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Course</label>
+    <input name="course" [(ngModel)]="model.course" type="text" class="form-control" placeholder="The Course you applied to teach?">
+  </div>
+  <button (click)="update()" class="btn btn-primary">Update</button>
+</div>
